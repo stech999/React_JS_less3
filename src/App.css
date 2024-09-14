@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #8fa5d5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.deleteItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
